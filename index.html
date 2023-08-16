@@ -21,6 +21,19 @@
   <button type="submit" class="btn btn-info" onclick="getblynk6()">kanan!</button>
 </div>
 
+<div class="container">
+  <h1>Button for ESp32 x</h1>
+  <button type="submit" class="btn btn-info" onclick="getblynk1()">depan!</button>
+</div>
+
+
+<div class="container">
+  <h1>Button for ESp32 x</h2>
+  <button type="submit" class="btn btn-info" onclick="getblynk2()">belakang!</button>
+</div>
+
+
+
 <script>
   function getblynk1(){
   $.get("https://blynk.cloud/external/api/update?token=RokUE6qCyAalm69nITSV8ZdzisbJzhKA&V13=1", (data, status) => {
@@ -32,6 +45,23 @@
     function getblynk2(){
   $.get("https://blynk.cloud/external/api/update?token=RokUE6qCyAalm69nITSV8ZdzisbJzhKA&V11=1", (data, status) => {
     console.log(data);
+  });
+  }
+
+    
+function getblynk1(){
+  $.get("https://blynk.cloud/external/api/update?token=RokUE6qCyAalm69nITSV8ZdzisbJzhKA&V10=1", (data, status) => {
+    console.log(data);
+  });
+  }
+
+
+    function getblynk2(){
+  $.get("https://blynk.cloud/external/api/update?token=RokUE6qCyAalm69nITSV8ZdzisbJzhKA&V12=1", (data, status) => {
+    console.log(data);
+
+
+    
   });
   }
 </script>
