@@ -11,48 +11,27 @@
 <body>
 
 <div class="container">
-  <h1>Button for ESp32 x</h1>
-
-  <button type="submit" class="btn btn-info" onclick="getblynk3()">Buka!</button>
+  <h1>Button for ESp32 x</h5>
+  <button type="submit" class="btn btn-info" onclick="getblynk5()">kiri!</button>
 </div>
 
- <div class="container">
-  <h1>Button for ESp32 x</h1>
-  <button type="submit" class="btn btn-info" onclick="getblynk4()">Tutup!</button>
-</div>
 
 <div class="container">
-  <h1>Button for ESp32 x</h1>
-
-  <button type="submit" class="btn btn-info" onclick="getblynk1()">Depan!</button>
+  <h1>Button for ESp32 x</h6>
+  <button type="submit" class="btn btn-info" onclick="getblynk6()">kanan!</button>
 </div>
-
- <div class="container">
-  <h1>Button for ESp32 x</h1>
-  <button type="submit" class="btn btn-info" onclick="getblynk2()">Belakang!</button>
-</div>
-
-
 
 <script>
   function getblynk1(){
-  $.get("https://blynk.cloud/external/api/update?token=RokUE6qCyAalm69nITSV8ZdzisbJzhKA&V10=1", (data, status) => {
+  $.get("https://blynk.cloud/external/api/update?token=RokUE6qCyAalm69nITSV8ZdzisbJzhKA&V13=1", (data, status) => {
     console.log(data);
   });
   }
 
-    function getblynk2(){
-  $.get("https://blynk.cloud/external/api/update?token=RokUE6qCyAalm69nITSV8ZdzisbJzhKA&V12=1", (data, status) => {
-    console.log(data);
 
-  function getblynk3(){
-  $.get("https://blynk.cloud/external/api/update?token=RokUE6qCyAalm69nITSV8ZdzisbJzhKA&V14=1", (data, status) => {
+    function getblynk2(){
+  $.get("https://blynk.cloud/external/api/update?token=RokUE6qCyAalm69nITSV8ZdzisbJzhKA&V11=1", (data, status) => {
     console.log(data);
-    
-  function getblynk4(){
-  $.get("https://blynk.cloud/external/api/update?token=RokUE6qCyAalm69nITSV8ZdzisbJzhKA&V15=1", (data, status) => {
-    console.log(data);
-    
   });
   }
 </script>
